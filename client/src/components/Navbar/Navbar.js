@@ -4,19 +4,35 @@ import NavBtn from "../../components/NavBtn";
 class Navbar extends Component {
 
     handleClick = (type) => {
+        let tar = "";
         switch (type) {
+
             case "About Me":
-                console.log("about clicked");
+                tar = document.getElementById("text_area_1").getBoundingClientRect();
+
+                window.scrollTo({top: (tar.y - 350), behavior: 'smooth'});
+                
                 break;
+
             case "Projects":
-                console.log("projects clicked");
+                tar = document.getElementById("text_area_2").getBoundingClientRect();
+
+                window.scrollTo({top: (tar.y - 30), behavior: 'smooth'});
+                
                 break;
+
             case "Artwork":
-                console.log("Artwork clicked");
+                tar = document.getElementById("text_area_3").getBoundingClientRect();
+                
+                window.scrollTo({top: (tar.y - 30), behavior: 'smooth'});
                 break;
+
             case "Contact Me":
-                console.log("Contact clicked");
+            tar = document.getElementById("text_area_4").getBoundingClientRect();
+                
+            window.scrollTo({top: (tar.y - 30), behavior: 'smooth'});
                 break;
+
         }
     };
 

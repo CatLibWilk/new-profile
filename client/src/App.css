@@ -10,11 +10,11 @@
 body, html {
     height: 100%;
     margin: 0;
-    overflow-x: hidden;
   }
 
 .card {
   height: 300px;
+  border-radius: 25px;
 }
 
 .bg-image-1, .bg-image-2, .bg-image-3, .bg-image-4 {
@@ -65,15 +65,10 @@ body, html {
     font-size: 24px;
     font-family: Roboto;
     text-align: center;
-    padding: 25px 25px;
+    padding: 75px 75px;
     text-align: center;
   }
 
-
-
-#text-area-1 {
-  overflow-x: hidden;
-}
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
       background-attachment: scroll;
