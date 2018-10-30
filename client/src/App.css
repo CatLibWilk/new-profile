@@ -46,6 +46,11 @@ nav {
     min-height: 400px;
   }
 
+.bg-image-3 {
+    background-image: url("./images/bg-image-3.jpg");
+    min-height: 800px;
+  }
+
 
 .caption {
     position: absolute;
@@ -57,6 +62,10 @@ nav {
   }
 
 .caption[caption_spec="top"]{
+    top: 80%;
+  } 
+
+.caption[caption_spec="artwork"]{
     top: 80%;
   } 
 
@@ -84,7 +93,9 @@ nav {
     text-align: center;
   }
 
-  
+.carousel-inner {
+    max-height: 20%;
+  }
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
       background-attachment: scroll;
