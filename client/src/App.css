@@ -12,10 +12,20 @@ body, html {
     margin: 0;
   }
 
-.card {
-  height: 300px;
-  border-radius: 25px;
+nav {
+  background-color: #deecfc;
+
 }
+.card {
+    height: 300px;
+    border-radius: 25px;
+    background-color: #deecfc;
+  }
+
+.btn-proj {
+    color: black;
+    background-color: #b9ceeb;
+  }
 
 .bg-image-1, .bg-image-2, .bg-image-3, .bg-image-4 {
     position: relative;
@@ -28,7 +38,7 @@ body, html {
 
 .bg-image-1 {
     background-image: url("./images/bg-image-1.jpg");
-    min-height: 600px;
+    min-height: 1000px;
   }
 
 .bg-image-2 {
@@ -46,9 +56,14 @@ body, html {
     color: #000;
   }
 
+.caption[caption_spec="top"]{
+    top: 80%;
+  } 
+
+
 .caption span.border {
-    background-color: #111;
-    color: #fff;
+    background-color: #c3b4d2;
+    color: black;
     padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
@@ -60,7 +75,7 @@ body, html {
   }
 
 .text-area{
-    background-color: rgb(234, 236, 193);
+    background-color: #b9ceeb;
     color: black;
     font-size: 24px;
     font-family: Roboto;

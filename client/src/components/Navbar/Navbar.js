@@ -38,7 +38,7 @@ class Navbar extends Component {
 
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light">
                 <a className="navbar-brand" href="#">Andrew Wilk</a>
                 
                 <div className="navbar" id="navbarNav">
