@@ -51,6 +51,12 @@ nav {
     min-height: 800px;
   }
 
+.carousel {
+  max-height: 750px;
+  max-width: 750px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
 
 .caption {
     position: absolute;
@@ -93,9 +99,7 @@ nav {
     text-align: center;
   }
 
-.carousel-inner {
-    max-height: 20%;
-  }
+
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
       background-attachment: scroll;

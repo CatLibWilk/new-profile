@@ -24,7 +24,7 @@ class Navbar extends Component {
             case "Artwork":
                 tar = document.getElementById("text_area_3").getBoundingClientRect();
                 
-                window.scrollTo({top: (tar.y - 30), behavior: 'smooth'});
+                window.scrollTo({top: (tar.y + 50), behavior: 'smooth'});
                 break;
 
             case "Contact Me":

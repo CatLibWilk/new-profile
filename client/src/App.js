@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import ContentDiv from "./components/ContentDiv";
 import Parallax from "./components/Parallax";
 import ProjectCard from "./components/ProjectCard";
+import Carousel from "./components/Carousel";
 
 
 class App extends Component {
@@ -29,10 +30,12 @@ class App extends Component {
                 </ContentDiv>
 
                 <Parallax caption_spec={"artwork"} bg_image={"bg-image-3"} heading={"Artwork"}/>
-                <ContentDiv text_area_id={3}>
-                  <h3 className="mb-5">In addition the the artwork you see as the background to this site, click through the viewer below to see more examples of my work.</h3>
-                 
-                </ContentDiv>
+                 <div id="carousel-wrapper">
+                    <ContentDiv text_area_id={3}>
+                      <h3>In addition the the artwork you see as the background to this site, click through the viewer below to see more examples of my work.</h3>
+                        <Carousel className="carousel" />
+                    </ContentDiv>
+                 </div>
               </div>
             </div>
         </div>
