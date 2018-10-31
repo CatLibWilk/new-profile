@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import ContentDiv from "./components/ContentDiv";
 import Parallax from "./components/Parallax";
 import ProjectCard from "./components/ProjectCard";
-import Carousel from "./components/Carousel";
+
 
 class App extends Component {
   render() {
@@ -31,7 +31,7 @@ class App extends Component {
                 <Parallax caption_spec={"artwork"} bg_image={"bg-image-3"} heading={"Artwork"}/>
                 <ContentDiv text_area_id={3}>
                   <h3 className="mb-5">In addition the the artwork you see as the background to this site, click through the viewer below to see more examples of my work.</h3>
-                  <Carousel />
+                 
                 </ContentDiv>
               </div>
             </div>

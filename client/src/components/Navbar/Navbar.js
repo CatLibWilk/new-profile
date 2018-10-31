@@ -10,14 +10,14 @@ class Navbar extends Component {
             case "About Me":
                 tar = document.getElementById("text_area_1").getBoundingClientRect();
 
-                window.scrollTo({top: (tar.y - 350), behavior: 'smooth'});
+                window.scrollTo({top: (tar.y - 300), behavior: 'smooth'});
                 
                 break;
 
             case "Projects":
                 tar = document.getElementById("text_area_2").getBoundingClientRect();
 
-                window.scrollTo({top: (tar.y - 30), behavior: 'smooth'});
+                window.scrollTo({top: (tar.y - 225), behavior: 'smooth'});
                 
                 break;
 
