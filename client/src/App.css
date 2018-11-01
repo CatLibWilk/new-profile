@@ -14,8 +14,49 @@ body, html {
 
 nav {
   background-color: #deecfc;
+  box-shadow: 5px 5px 5px black;
 
-}
+  }
+
+#return-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+  }
+
+#return-to-top:hover {
+  transform: scale(1.2) !important;      
+  background-color: transparent !important;      
+
+  }
+
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+  }
+
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+  }
+
+.navbar {
+    min-height: 100px;
+    font-size: 24px;
+
+  }
+
+.navbar-brand {
+    font-size: 48px;
+
+  }
+
+.navbar-nav {
+    margin-left: 150px;
+
+  }
+
 .card {
     height: 300px;
     border-radius: 25px;
@@ -59,6 +100,7 @@ nav {
 .carousel {
   max-height: 750px;
   max-width: 750px;
+  border-radius: 25px;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -89,6 +131,14 @@ nav {
     letter-spacing: 10px;
   }
 
+#mail-img {
+    border-radius: 3px;
+  }
+
+#sc-div {
+    padding-left: 83px !important;
+  }
+
 .text-container {
     position: relative;
     
@@ -98,7 +148,7 @@ nav {
     background-color: #b9ceeb;
     color: black;
     font-size: 24px;
-    font-family: Roboto;
+    font-family: 'KoHo', sans-serif;
     text-align: center;
     padding: 75px 75px;
     text-align: center;

@@ -7,13 +7,24 @@ import Parallax from "./components/Parallax";
 import ProjectCard from "./components/ProjectCard";
 import Carousel from "./components/Carousel";
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faAngleDoubleUp)
+
 
 const styles = {
   width: "64px",
-  height: "64px"
+  height: "64px",
+
 }
 
 class App extends Component {
+
+  toTop = () => {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
   render() {
     return (
       <div className="App">
@@ -45,18 +56,25 @@ class App extends Component {
                 <Parallax bg_image={"bg-image-4"} heading={"Contact Me"}/>
                 <ContentDiv text_area_id={4}>
                   <div class="row justify-content-center">
-                    <div class="col-4">
-                      <a href="https://github.com/catlibwilk" target="_#"><img src="./images/GitHub-Mark-64px.png"></img></a></div>
-                    <div class="col-4"><a href="https://www.linkedin.com/in/andrew-wilk-839bab97" target="_#"><img src="./images/Logo-2C-66px-R.png"></img></a></div>
-                    <div class="col-4">
+                    <div class="col-3">
+                      <a href="https://github.com/catlibwilk" target="_#"><img src="./images/GitHub-Mark-64px.png"></img></a>
+                    </div>
+                    <div class="col-3">
+                      <a href="https://www.linkedin.com/in/andrew-wilk-839bab97" target="_#"><img src="./images/Logo-2C-66px-R.png"></img></a>
+                    </div>
+                    <div id="sc-div" class="col-3 pl-2">
                         <iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fswift-street-records&color=orange_white&size=64" style={styles}>
                         </iframe>
+                    </div>
+                    <div class="col-3">
+                      <a href="mailto:andrewdwilk@gmail.com" target="_#"><img id="mail-img" src="./images/mail-icon.jpeg"></img></a>
                     </div>
                   </div>
                 </ContentDiv>
                 
               </div>
             </div>
+            <FontAwesomeIcon id="return-to-top" icon="angle-double-up" onClick={this.toTop}/>
         </div>
       </div>
     );
