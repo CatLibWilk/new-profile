@@ -18,6 +18,11 @@ nav {
 
   }
 
+#profile-pic {
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+}
 #return-to-top {
     position: fixed;
     bottom: 50px;
@@ -125,6 +130,7 @@ nav {
 
 .caption span.border {
     background-color: #c3b4d2;
+    border-radius: 10px;
     color: black;
     padding: 18px;
     font-size: 25px;

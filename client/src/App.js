@@ -34,7 +34,8 @@ class App extends Component {
               <div className="col">
                 <Parallax caption_spec={"top"} bg_image={"bg-image-1"} heading={"About Me"}/>
                 <ContentDiv text_area_id={1}>
-                  <p>Im a Library and information sciences professional with strong interests in cataloging, metadata, and information technology. My classroom and work experiences have given me the opportunity to perform cataloging work for a wide range of resource and material types, while utilizing a wide range of descriptive schemas and metadata standards. I am particularly interested in applying my cataloging knowledge to describe and provide access to cultural heritage collections, with an eye toward future concepts and technologies.</p>
+                  <img className="float-left mr-4" id="profile-pic" src="./images/profilepic.jpg"></img>
+                  <p >Im a Library and information sciences professional with strong interests in cataloging, metadata, and information technology. My classroom and work experiences have given me the opportunity to perform cataloging work for a wide range of resource and material types, while utilizing a wide range of descriptive schemas and metadata standards. I am particularly interested in applying my cataloging knowledge to describe and provide access to cultural heritage collections, with an eye toward future concepts and technologies.</p>
                 </ContentDiv>
 
                 <Parallax bg_image={"bg-image-2"} heading={"Projects"}/>
