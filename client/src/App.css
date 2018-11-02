@@ -19,10 +19,12 @@ nav {
   }
 
 #profile-pic {
-  height: 300px;
-  width: 300px;
-  border-radius: 15px;
-}
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+  
+  }
+
 #return-to-top {
     position: fixed;
     bottom: 50px;
@@ -63,7 +65,7 @@ nav {
   }
 
 .card {
-    height: 300px;
+    padding-bottom: 5%;
     border-radius: 25px;
     background-color: #deecfc;
   }
@@ -164,5 +166,40 @@ nav {
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
       background-attachment: scroll;
+  }
+}
+
+@media (max-width: 425px) {
+  .text-area {
+    padding: 10px;
+    
+    }
+
+  .card {
+    margin: 10px 0px;
+    }
+
+  #profile-pic {
+      float: inherit !important;
+      display: block;
+
+    }
+
+  #return-to-top {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      height: 25px;
+      width: 25px;
+
+    }
+
+  #bio-text {
+      font-size: 16px;
+    }
+
+  .text-container {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
