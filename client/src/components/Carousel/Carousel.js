@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 class artCarousel extends Component {
     render() {
         return (
-            <Carousel className="carousel mx-auto" dynamicHeight="true" infiniteLoop="true" showStatus="false">
+            <Carousel className="carousel mx-auto" dynamicHeight="true" infiniteLoop="true" swipeable="true" showStatus="false">
                 <div>
                     <img className="caro-img" src="/images/bg-image-1.jpg" />
                 </div>
