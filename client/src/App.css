@@ -199,7 +199,17 @@ nav {
     }
 
   .text-container {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+  .contact-icon {
+      margin: 10px 0px;
+    }
+
+  #sc-div {
+      float: inherit;
+      padding: 0 !important;
+      display: block;
+    }
 }

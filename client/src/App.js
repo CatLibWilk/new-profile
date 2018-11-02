@@ -59,17 +59,17 @@ class App extends Component {
                 <Parallax bg_image={"bg-image-4"} heading={"Contact Me"}/>
                 <ContentDiv text_area_id={4}>
                   <div class="row justify-content-center">
-                    <div class="col-3">
+                    <div class="col-sm-3 contact-icon">
                       <a href="https://github.com/catlibwilk" target="_#"><img src="./images/GitHub-Mark-64px.png"></img></a>
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-3 contact-icon">
                       <a href="https://www.linkedin.com/in/andrew-wilk-839bab97" target="_#"><img src="./images/Logo-2C-66px-R.png"></img></a>
                     </div>
-                    <div id="sc-div" class="col-3 pl-2">
+                    <div id="sc-div" class="col-sm-3 contact-icon pl-2">
                         <iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fswift-street-records&color=orange_white&size=64" style={styles}>
                         </iframe>
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-3 contact-icon">
                       <a href="mailto:andrewdwilk@gmail.com" target="_#"><img id="mail-img" src="./images/mail-icon.jpeg"></img></a>
                     </div>
                   </div>
