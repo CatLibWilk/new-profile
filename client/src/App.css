@@ -149,6 +149,7 @@ nav {
 
 .text-container {
     position: relative;
+    padding: 0;
     
   }
 
@@ -162,6 +163,7 @@ nav {
     text-align: center;
   }
 
+  
 
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -212,4 +214,5 @@ nav {
       padding: 0 !important;
       display: block;
     }
+  
 }

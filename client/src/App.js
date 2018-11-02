@@ -74,7 +74,9 @@ class App extends Component {
                     </div>
                   </div>
                 </ContentDiv>
-                
+                <div id="footer-div" className="mt-2">
+                  <p>This site is utilizes the React.js library in a Node.js runtime.  To check out the source code, click <a href="https://github.com/CatLibWilk/new-profile" target="_blank">Here</a>.</p>
+                </div>
               </div>
             </div>
             <FontAwesomeIcon id="return-to-top" icon="angle-double-up" onClick={this.toTop}/>
