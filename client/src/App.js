@@ -44,7 +44,7 @@ class App extends Component {
                   <div className="row">
                   <ProjectCard title={"Bookbag+"} desc={"React-based Scholarly research tool."} dep_url={"http://bookbagplus.herokuapp.com/"} git_url={"https://github.com/CatLibWilk/bookbag"}/>
                   <ProjectCard title={"EatMeet"} desc={"Restaurant searching and voting application."} dep_url={"https://catlibwilk.github.io/eatmeet-local/"} git_url={"https://github.com/CatLibWilk/eatmeet-local"}/>
-                  <ProjectCard title={"NYTReact"} desc={"Returns articles from NYTimes API."} dep_url={"https://wownews.herokuapp.com/"} git_url={"https://github.com/CatLibWilk/nytreact"}/>
+                  <ProjectCard title={"CloudManager+"} desc={"Make collections management decisions with the help of the Harvard LibraryCloud API."} dep_url={"https://cloud-manager-plus.herokuapp.com"} git_url={"https://github.com/CatLibWilk/harvard-collections-mgmt.git"}/>
                   </div>
                 </ContentDiv>
 
